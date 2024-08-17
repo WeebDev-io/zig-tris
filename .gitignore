@@ -4,3 +4,4 @@ tetris.o
 toy_dir/
 zig-out/
 .zig-cache/
+*pdf
