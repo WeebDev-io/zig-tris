@@ -1,0 +1,8 @@
+#### SHIZ I've been looking up while hacking this cr*p together
+
+# Build system documentation
+1. https://ziglang.org/learn/build-system/
+
+# Official Zig documentation - TAYLOR NOTE: Kinda outta date and shiz 
+2. https://ziglang.org/documentation/master/
+
