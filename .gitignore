@@ -1,0 +1,5 @@
+zig-cache/
+tetris
+tetris.o
+toy_dir/
+zig-out/
