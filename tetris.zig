@@ -1,11 +1,14 @@
 //******************************
-// Import
+// Imports
 
 /// standard libraries - standard, expect
-const standard = @import ("std");
-const expect = standard.testing.expect; 
+const standard = @import("std");
 
-///
+//Graphics Libary
+const graphics = @cImport({
+    @cDefine("DEF_OPENGL_H", "1");
+    @cInclude("opengl.h");
+});
 
 //END Import
 //******************************
@@ -71,17 +74,19 @@ const tetrominos = struct {
 /// Loops indefinitely until a flag tells the game to quit
 pub fn main() !void {
     const stdout = standard.io.getStdOut().writer();
-    const stderr = standard.debug;
+    // const stderr = standard.debug;
 
     // Test prints 
-    try stdout.print("Hello");
-    try stderr.print("error");
+    try stdout.print("{s}\n>", .{""});
+    // try stderr.print("error\n", .{});
 
 
+
+    
     // Game Loop
-    while (true){
+    //while (true){
 
-    }    
+    //}    
 
 
     //
